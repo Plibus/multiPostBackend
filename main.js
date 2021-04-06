@@ -20,7 +20,7 @@ var indexRoutes = require('./routes/indexRoutes');
 //User Routes
 var userRoutes = require('./routes/userRoutes');
 //API Routes
-var facebookRoutes = require('./routes/facebookRoutes');
+//var facebookRoutes = require('./routes/facebookRoutes');
 var twitterRoutes = require('./routes/twitterRoutes');
 //var youtubeRoutes = require('./routes/youtube');
 
@@ -57,7 +57,7 @@ app.use('/', indexRoutes);
 //app.use('/user', userRoutes);
 
 //Linked API Routes
-app.use('/facebook', facebookRoutes);
+//app.use('/facebook', facebookRoutes);
 app.use('/twitter', twitterRoutes);
 //app.use('/youtube', youtubeRoutes);
 
